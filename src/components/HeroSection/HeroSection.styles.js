@@ -103,6 +103,10 @@ export const LocationIcon = styled(ImLocation2)`
   color: #1155cc;
   font-size: 30px;
   margin-top: 14px;
+
+  @media screen and (max-width: 375px){
+    margin-top: 5px;
+  }
 `
 
 export const HeroInput = styled.input`
@@ -120,6 +124,10 @@ export const HeroInput = styled.input`
 
   @media screen and (max-width: 425px){
     padding: 2px 20px;
+  }
+
+  @media screen and (max-width: 375px){
+    padding: 2px 15px;
   }
 
   @media screen and (max-width: 320px){

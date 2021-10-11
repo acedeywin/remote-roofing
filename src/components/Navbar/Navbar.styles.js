@@ -44,7 +44,7 @@ export const NavLogo = styled(LinkRouter)`
     margin-left: 17.438rem;
 
     @media screen and (max-width: 1024px){
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     @media screen and (max-width: 768px){
@@ -52,7 +52,7 @@ export const NavLogo = styled(LinkRouter)`
     }
 
     @media screen and (max-width: 425px){
-        margin-left: 0px;
+        margin-left: -30px;
     }
 `
 
