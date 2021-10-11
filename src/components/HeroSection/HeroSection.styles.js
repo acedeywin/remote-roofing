@@ -42,12 +42,12 @@ export const HeroContent = styled.div`
   }
 
 @media screen and (max-width: 425px){
-  margin-left: 2.3rem;
+  margin-left: 1rem;
   padding: 8px 6px;
 }
 
 @media screen and (max-width: 375px){
-  margin-left: 2.2rem;
+  margin-left: 10px;
 }
 `
 
@@ -123,12 +123,12 @@ export const HeroInput = styled.input`
   }
 
   @media screen and (max-width: 425px){
-    padding: 10px 10px;
+    padding: 2px 20px;
   }
 
   @media screen and (max-width: 320px){
     font-size: 10px;
-    padding-left: 25px;
+    padding-left: 20px;
   }
 `
 export const HeroBtn = styled.button`
