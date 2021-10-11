@@ -110,14 +110,8 @@ export const InputSpan = styled.span`
   }
 
   @media screen and (max-width: 425px){
-    width: 82%;
+    width: auto;
   }
-
-  @media screen and (max-width: 375px){
-    width: 90%;
-  }
-
- 
 `
 
 export const LocationIcon = styled(ImLocation2)`
@@ -141,7 +135,7 @@ export const HeroInput = styled.input`
   }
 
   @media screen and (max-width: 425px){
-    padding: 15px 15px;
+    padding: 20px 30px;
   }
 
   @media screen and (max-width: 375px){
@@ -168,8 +162,7 @@ export const HeroBtn = styled.button`
   }
 
   @media screen and (max-width: 425px){
-    padding: 15px 15px;
-    font-size: 10px
+    padding: 20px 20px;
   }
 
   @media screen and (max-width: 375px){
