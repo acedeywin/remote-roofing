@@ -4,7 +4,7 @@ import { MdSmokeFree } from "react-icons/md";
 import { BsFiles, BsTools } from "react-icons/bs";
 
 export const HeroContainer = styled.div`
-  display: block;
+  display: flex;
   height: 100vh;
 `
 export const HeroBg = styled.div`
@@ -94,6 +94,7 @@ export const HeroP = styled.p`
 `
 
 export const InputSpan = styled.span`
+  display: flex;
   margin-top: 2rem;
   background-color: #fff;
   width: 39%;
@@ -120,14 +121,17 @@ export const InputSpan = styled.span`
 `
 
 export const LocationIcon = styled(ImLocation2)`
+  display: flex;
   color: #1155cc;
   font-size: 30px;
-  margin-bottom: -9px;
+  margin-top: 14px;
 `
 
 export const HeroInput = styled.input`
+  display: flex;
   padding: 8px 100px 8px 20px;
   border: none;
+  border-radius: 50px 50px;
   font-size: 16px;
 
 
