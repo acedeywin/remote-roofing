@@ -134,13 +134,13 @@ export const NavNum = styled(LinkScroll)`
     }
 `
 export const NumLink = styled(LinkScroll)`
-color: #fff;
-display: flex;
-text-decoration: none;
-padding: 0 10px;
-cursor: pointer;
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    padding: 0 10px;
+    cursor: pointer;
 
-&.active {
+    &.active {
     border-bottom: 3px solid #01bf71;
-}
+    }
 `

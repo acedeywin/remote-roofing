@@ -170,39 +170,39 @@ export const IconDiv = styled.div`
 `
 
 export const HeroFeatures = styled.div`
-z-index: 3;
-width: 60%;
-position: absolute;
-top: 0;
-left: 0;
-background: #1155cc;
-padding: 40px 24px;
-display: flex;
-flex-direction: column;
-margin: 37rem 0 0 18.5rem;
-border-radius: 5px;
+  z-index: 3;
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #1155cc;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  margin: 37rem 0 0 18.5rem;
+  border-radius: 5px;
 
-@media screen and (max-width: 1024px){
-  margin: 45rem 0 0 6rem;
-  width: 80%;
-}
+  @media screen and (max-width: 1024px){
+    margin: 45rem 0 0 6rem;
+    width: 80%;
+  }
 
-@media screen and (max-width: 768px){
-  margin: 33rem 0 0 5rem;
-  width: 80%;
-  padding: 30px 0px 
-}
+  @media screen and (max-width: 768px){
+    margin: 33rem 0 0 5rem;
+    width: 80%;
+    padding: 30px 0px 
+  }
 
-@media screen and (max-width: 425px){
-  margin: 33rem 0 0 3rem;
-  width: 80%;
- justify-content: center;
- align-items: center
-}
+  @media screen and (max-width: 425px){
+    margin: 33rem 0 0 3rem;
+    width: 80%;
+    justify-content: center;
+    align-items: center
+  }
 
-@media screen and (max-width: 320px){
-  margin-left: 2rem;
-}
+  @media screen and (max-width: 320px){
+    margin-left: 2rem;
+  }
 `
 
 export const MdSmokeFreeIcon = styled(MdSmokeFree)`
@@ -210,37 +210,37 @@ export const MdSmokeFreeIcon = styled(MdSmokeFree)`
 
  @media screen and (max-width: 768px){
   font-size: 3rem;
-}
+ }
 `
 export const BsFilesIcon = styled(BsFiles)`
-font-size: 5rem;
+  font-size: 5rem;
 
-@media screen and (max-width: 768px){
-  font-size: 3rem;
-}
+  @media screen and (max-width: 768px){
+    font-size: 3rem;
+  }
 `
 export const BsToolsIcon = styled(BsTools)`
-font-size: 5rem;
+  font-size: 5rem;
 
-@media screen and (max-width: 768px){
-  font-size: 3rem;
-}
+  @media screen and (max-width: 768px){
+    font-size: 3rem;
+  }
 `
 
 export const TextSpan = styled.span`
-margin: 1.2rem 3.5rem 0 0;
-padding-left: 10px;
+  margin: 1.2rem 3.5rem 0 0;
+  padding-left: 10px;
 
-@media screen and (max-width: 1024px){
-  margin-right: 2rem;
-}
+  @media screen and (max-width: 1024px){
+    margin-right: 2rem;
+  }
 
-@media screen and (max-width: 768px){
-  margin-right: 3rem; 
-}
+  @media screen and (max-width: 768px){
+    margin-right: 3rem; 
+  }
 
-@media screen and (max-width: 425px){
-  display: none 
-}
+  @media screen and (max-width: 425px){
+    display: none 
+  }
 `
 
