@@ -8,16 +8,16 @@ export const SidebarContainer = styled.aside`
   @media screen and (max-width: 768px){
     display: block;
     position: fixed;
-  z-index: 999;
-  width: 60%;
-  height: 35%;
-  background: #fff;
-  display: grid;
-  align-items: center;
-  top: ${({isOpen}) => (isOpen ? '0' : '-10%')};
-  right: 0;
-  transition: 0.3s ease-in-out;
-  opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
+    z-index: 999;
+    width: 60%;
+    height: 35%;
+    background: #fff;
+    display: grid;
+    align-items: center;
+    top: ${({isOpen}) => (isOpen ? '0' : '-10%')};
+    right: 0;
+    transition: 0.3s ease-in-out;
+    opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
   }
 `
 

@@ -41,7 +41,7 @@ export const NavLogo = styled(LinkRouter)`
     transform: scale(0.75);
     height: 45px;     
     display: flex;
-    margin-left: 17.438px;
+    margin-left: 17.438rem;
 
     @media screen and (max-width: 1024px){
         margin-left: 70px;
@@ -71,12 +71,7 @@ export const MobileIcon = styled(FaBars)`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         color: #fff;
-        margin-right: -10rem;
         cursor: pointer;
-    }
-
-    @media screen and (max-width: 425px){
-        margin-right: -5rem;
     }
 `
 

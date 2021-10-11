@@ -13,17 +13,18 @@ export const HeroBg = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  width: 118%;
+  width: 100%;
   height: 80%;
   overflow: hidden;
 `
 export const ImageBg = styled.img`
+  display: flex;
   width: 100%;
   height: 100vh;
 `
 export const HeroContent = styled.div`
   z-index: 3;
-  width: 100%;
+  width: auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -33,12 +34,12 @@ export const HeroContent = styled.div`
   margin: 10rem 0 0 18.5rem;
 
   @media screen and (max-width: 1024px){
-    margin: 20rem 0 0 5rem
+    margin: 20rem 0 0 5rem;
   }
 
   @media screen and (max-width: 768px){
-    margin: 10rem 0 0 5rem
-}
+    margin: 10rem 0 0 5rem;
+  }
 
 @media screen and (max-width: 425px){
   margin-left: 2.3rem;
@@ -47,10 +48,6 @@ export const HeroContent = styled.div`
 
 @media screen and (max-width: 375px){
   margin-left: 2.2rem;
-}
-
-@media screen and (max-width: 320px){
-  margin-left: 3rem;
 }
 `
 
@@ -89,16 +86,16 @@ export const InputSpan = styled.span`
   display: flex;
   margin-top: 2rem;
   background-color: #fff;
-  width: 39%;
+  width: 66.1%;
   padding: 3px 0 3px 8px;
   border-radius: 50px 50px;
 
   @media screen and (max-width: 1024px){
-    width: 56%;
+    width: 66.5%;
   }
 
   @media screen and (max-width: 768px){
-    width: 75.5%;
+    width: auto;
   }
 
   @media screen and (max-width: 425px){
@@ -107,7 +104,6 @@ export const InputSpan = styled.span`
 `
 
 export const LocationIcon = styled(ImLocation2)`
-  display: flex;
   color: #1155cc;
   font-size: 30px;
   margin-top: 14px;
@@ -117,7 +113,7 @@ export const HeroInput = styled.input`
   display: flex;
   padding: 8px 100px 8px 20px;
   border: none;
-  border-radius: 50px 50px;
+  border-radius: 50px 0 0 50px;
   font-size: 16px;
 
 
@@ -127,11 +123,7 @@ export const HeroInput = styled.input`
   }
 
   @media screen and (max-width: 425px){
-    padding: 20px 30px;
-  }
-
-  @media screen and (max-width: 375px){
-    padding: 10px 17px;
+    padding: 10px 10px;
   }
 
   @media screen and (max-width: 320px){
@@ -193,19 +185,19 @@ border-radius: 5px;
 
 @media screen and (max-width: 768px){
   margin: 33rem 0 0 5rem;
-  width: 90%;
+  width: 80%;
   padding: 30px 0px 
 }
 
 @media screen and (max-width: 425px){
   margin: 33rem 0 0 3rem;
-  width: 100%;
+  width: 80%;
  justify-content: center;
  align-items: center
 }
 
 @media screen and (max-width: 320px){
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 `
 

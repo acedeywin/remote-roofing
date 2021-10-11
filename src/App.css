@@ -7,6 +7,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+html,body{
+  overflow-x: hidden !important;
+}
+
 .active{
   border-bottom: 2px solid #fff !important;
   padding: 0 0 8px 0px !important;
