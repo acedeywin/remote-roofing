@@ -11,19 +11,11 @@ export const HeroBg = styled.div`
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 10rem;
+  bottom: 0;
   left: 0;
-  width: 100%;
+  width: 118%;
   height: 80%;
   overflow: hidden;
-
-  @media screen and (max-width: 1024px){
-  width: 100%;
-}
-
-  @media screen and (max-width: 768px){
-    width: 120%;
-}
 `
 export const ImageBg = styled.img`
   width: 100%;

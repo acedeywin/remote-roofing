@@ -7,7 +7,7 @@ import logo from '../../images/logo.svg'
 
      const navLinks = links.map((link) => (
         <NavItem >
-            <NavLinks key={link.id} to={link.to} >{link.text}</NavLinks>
+            <NavLinks key={link.id} to={link.to} className={link.style} >{link.text}</NavLinks>
         </NavItem>
      ))
 

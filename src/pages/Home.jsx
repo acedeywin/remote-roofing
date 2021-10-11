@@ -14,7 +14,8 @@ const Home = () => {
     const links = [{
         id: 1,
         to: "residential",
-        text: "Home"
+        text: "Home",
+        style: 'active'
     },{
        id: 2,
        to: "solar",

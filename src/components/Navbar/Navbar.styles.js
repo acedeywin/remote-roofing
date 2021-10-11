@@ -88,7 +88,7 @@ export const NavContent = styled.nav`
   left: 0;
   width: 100%;
   margin-top: 90px;
-  margin-left: 18.6rem;
+  margin-left: 20rem;
   display: flex;
   justify-content: left;
   font-size: 1rem;
