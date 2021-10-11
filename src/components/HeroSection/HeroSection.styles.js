@@ -22,7 +22,7 @@ export const HeroBg = styled.div`
 }
 
   @media screen and (max-width: 768px){
-    width: 130%;
+    width: 120%;
 }
 `
 export const ImageBg = styled.img`
@@ -109,7 +109,11 @@ export const InputSpan = styled.span`
   }
 
   @media screen and (max-width: 425px){
-    width: auto;
+    width: 82%;
+  }
+
+  @media screen and (max-width: 375px){
+    width: 90%;
   }
 
  
@@ -129,10 +133,11 @@ export const HeroInput = styled.input`
 
   &::-webkit-input-placeholder {
     font-size: 16px;
+    paddding-right: 6rem;
   }
 
   @media screen and (max-width: 425px){
-    padding: 20px 30px;
+    padding: 15px 15px;
   }
 
   @media screen and (max-width: 375px){
@@ -159,7 +164,8 @@ export const HeroBtn = styled.button`
   }
 
   @media screen and (max-width: 425px){
-    padding: 20px 20px;
+    padding: 15px 15px;
+    font-size: 10px
   }
 
   @media screen and (max-width: 375px){
