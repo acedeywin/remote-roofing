@@ -42,12 +42,8 @@ export const HeroContent = styled.div`
   }
 
 @media screen and (max-width: 425px){
-  margin-left: 1rem;
+  margin-left: 5px;
   padding: 8px 6px;
-}
-
-@media screen and (max-width: 375px){
-  margin-left: 10px;
 }
 `
 
