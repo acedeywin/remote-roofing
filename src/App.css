@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-html,body{
-  overflow-x: hidden !important;
+html,
+body {
+  overflow-x: hidden !important ;
 }
 
-.active{
+.active {
   border-bottom: 2px solid #fff !important;
   padding: 0 0 8px 0px !important;
 }
